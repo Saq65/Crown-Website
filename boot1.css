@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    padding: 16px;
+    display: flex;
+    background-color:wheat;
+    color:black;
+        text-align: center;
+        
+}
+h1{
+    position: relative;
+    left: 415px;
+    font-family: monospace;
+    letter-spacing: 7px;
+    line-height: 5;
+    font-size: 5rem;
+    cursor: pointer;
+    text-shadow: 1px 2px 1px white;
+    font-weight: bolder;
+}
+#signup{
+    position: relative;
+    left: 10px;
+    color: #111;
+    letter-spacing: 1px;
+}
+
+#Login{
+    position: relative;
+    left: 10px;
+    color: #111;
+    letter-spacing: 1px;
+}
+@media screen and (max-width:450px) {
+    .banner{
+        width:100%;
+        display: block;
+
+    }
+    h1{ position: relative;
+        width: fit-content;
+        display: block;
+        height: auto;
+       left:1px ;
+    }
+    
+    
+}
+.btnw{
+    position: relative;
+    top: 10px;
+   width: 56px;
+}
+h5{
+    color: lightgreen;
+    text-shadow: 1px 1px 1px black;
+}
